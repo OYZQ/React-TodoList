@@ -20,7 +20,7 @@ class TodoList extends Component {
             <Fragment>
 							<label htmlFor="insertArea">输入内容</label>
 							<input id="insertArea" className="input" value={this.state.inputValue} onChange={this.handleInputChange}/>
-							{/* bind改变this指向 */}
+							{/* bind改变this的指向 */}
 							<button onClick={this.handleBtnClick}>提交</button>
 							<ul>
 								{
